@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#f0f8ff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broadband Only Connect"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚀 মোবাইল ডাটা ছাড়াই শুধু ব্রডব্যান্ড ব্যবহার করুন"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:padding="12dp"
+        android:background="#e3f2fd"
+        android:textColor="#1976d2" />
+
+    <Button
+        android:id="@+id/btnConnectHome"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🏠 বাসার ব্রডব্যান্ডে কানেক্ট করুন"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#4caf50"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnConnectOffice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🏢 অফিসের ব্রডব্যান্ডে কানেক্ট করুন"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#ff9800"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="স্ট্যাটাস: কানেকশন চেক করা হচ্ছে..."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#ffffff"
+        android:textColor="#333333"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔒 গুরুত্বপূর্ণ: এই অ্যাপ কখনোই আপনার মোবাইল ডাটা ব্যবহার করবেনা"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#fff3e0"
+        android:textColor="#e65100" />
+
+</LinearLayout>
